@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-color: rgb(245, 235, 223);
+}
+
+header {
+    background-color: rgb(33, 44, 127);
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+header img {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.container {
+    margin: 150px auto;
+    max-width: 640px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 30px 30px 0 0;
+}
+
+
+form {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input{
+    display: inline;
+    padding: 8px;
+    margin-bottom: 30px;
+    width: 38%;
+    resize: none;
+    border-radius: 10px;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+button {    
+    padding: 6px;
+    width: 25%;
+    margin: 10px auto;
+    justify-content: center;
+    resize: none;
+    background-color: #229408;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #37c417;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 1px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table tbody td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
